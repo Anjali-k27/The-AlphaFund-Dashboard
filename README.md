@@ -247,6 +247,7 @@ This is a **two-pass agentic loop** — not a rigid if/else router. The AI decid
 | Error | Fix |
 |---|---|
 | `401 Unauthorized` | API key is wrong or expired — generate a new one at openrouter.ai/keys |
+| Execution policy error | Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass |
 | `429 Rate Limited` | Hit free tier limit — wait 1 minute or switch to a different model |
 | `400 Invalid model ID` | Model name typo — copy exact model string from the dropdown |
 | `SQL Error: no such table` | Database failed to load — check internet connection and re-run |
